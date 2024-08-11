@@ -7,7 +7,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ui/*": ["../design/src"]
+      "@ui/*": ["../design/src/*"]
     },
 
     /* Bundler mode */
