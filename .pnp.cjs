@@ -369,6 +369,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:15.9.0"],\
           ["lucide-react", "virtual:a9fcc8bf26681484b3008d8f70e9e1e2a335b1bd29fef335e4acd30f67eefc2310a03bb3f057999d0586ad3f4db8937a381ff88ac2542a5a59d16963fd312396#npm:0.427.0"],\
           ["postcss", "npm:8.4.41"],\
+          ["postcss-import", "virtual:a9fcc8bf26681484b3008d8f70e9e1e2a335b1bd29fef335e4acd30f67eefc2310a03bb3f057999d0586ad3f4db8937a381ff88ac2542a5a59d16963fd312396#npm:16.1.0"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:a9fcc8bf26681484b3008d8f70e9e1e2a335b1bd29fef335e4acd30f67eefc2310a03bb3f057999d0586ad3f4db8937a381ff88ac2542a5a59d16963fd312396#npm:18.3.1"],\
           ["tailwind-merge", "npm:2.4.0"],\
@@ -4598,6 +4599,29 @@ const RAW_RUNTIME_STATE =
           ["postcss-import", "npm:15.1.0"]\
         ],\
         "linkType": "SOFT"\
+      }],\
+      ["npm:16.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/postcss-import-npm-16.1.0-97f2f09176-10c0.zip/node_modules/postcss-import/",\
+        "packageDependencies": [\
+          ["postcss-import", "npm:16.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a9fcc8bf26681484b3008d8f70e9e1e2a335b1bd29fef335e4acd30f67eefc2310a03bb3f057999d0586ad3f4db8937a381ff88ac2542a5a59d16963fd312396#npm:16.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-import-virtual-4d47afaca7/4/.yarn/berry/cache/postcss-import-npm-16.1.0-97f2f09176-10c0.zip/node_modules/postcss-import/",\
+        "packageDependencies": [\
+          ["postcss-import", "virtual:a9fcc8bf26681484b3008d8f70e9e1e2a335b1bd29fef335e4acd30f67eefc2310a03bb3f057999d0586ad3f4db8937a381ff88ac2542a5a59d16963fd312396#npm:16.1.0"],\
+          ["@types/postcss", null],\
+          ["postcss", "npm:8.4.41"],\
+          ["postcss-value-parser", "npm:4.2.0"],\
+          ["read-cache", "npm:1.0.0"],\
+          ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"]\
+        ],\
+        "packagePeers": [\
+          "@types/postcss",\
+          "postcss"\
+        ],\
+        "linkType": "HARD"\
       }],\
       ["virtual:ad35a1b57d0653d009ea3823d8002b1a0362dca374358f1a2ad5a383ca4ddf10cefdffbf98067d9ece83e98c3519e6b143400e6840a1403ac3b58df7455c3b84#npm:15.1.0", {\
         "packageLocation": "./.yarn/__virtual__/postcss-import-virtual-32fca68d4b/4/.yarn/berry/cache/postcss-import-npm-15.1.0-8b9e86f900-10c0.zip/node_modules/postcss-import/",\
