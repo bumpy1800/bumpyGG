@@ -3,13 +3,20 @@ import { Button } from '@bumpygg/design';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import {ReactQueryDevtools} from '@tanstack/react-query-devtools'
+import { ThemeProvider } from '@bumpygg/design'
+
+const queryClient = new QueryClient()
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
+    <QueryClientProvider client={queryClient}>
+      <ReactQueryDevtools initialIsOpen />
+      <ThemeProvider defaultTheme='system' storageKey='vite-ui-theme'>
+      <div className='inline-flex'>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -25,7 +32,8 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </>
+      </ThemeProvider>
+    </QueryClientProvider>
   );
 }
 

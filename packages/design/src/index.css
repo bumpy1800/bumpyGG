@@ -62,8 +62,13 @@
 @layer base {
   * {
     @apply border-border;
+    font-family: 'Pretendard', sans-serif; /* Pretendard 폰트 적용 */
+    font-style: normal;
   }
   body {
     @apply bg-background text-foreground;
+  }
+  input {
+    outline: none;
   }
 }
